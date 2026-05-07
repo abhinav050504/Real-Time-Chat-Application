@@ -1,23 +1,31 @@
- Real-Time Chat Application
+# 🚀 Real-Time Chat Application
+
 A modern full-stack chat application built for instant messaging, real-time updates, and seamless user interaction. This project demonstrates a complete messaging experience using Socket.IO, Node.js, Express.js, and MongoDB.
 
-🔎 Description
+## 🔎 Description
+
 A real-time chat app that enables users to send and receive messages instantly, see who is online, and enjoy a responsive chat interface. It supports real-time communication, user authentication, typing indicators, and message persistence.
 
-✨ Features
-Real-time messaging with Socket.IO
-User authentication and session management
-Typing indicator for active conversations
-Online/offline presence status
-Persistent chat history stored in MongoDB
-Responsive UI for desktop and mobile
-🧰 Tech Stack
-Frontend: HTML, CSS, JavaScript (React optional)
-Backend: Node.js, Express.js
-Real-time communication: Socket.IO
-Database: MongoDB
-Authentication: JWT / session-based auth
-📁 Folder Structure
+## ✨ Features
+
+- Real-time messaging with Socket.IO
+- User authentication and session management
+- Typing indicator for active conversations
+- Online/offline presence status
+- Persistent chat history stored in MongoDB
+- Responsive UI for desktop and mobile
+
+## 🧰 Tech Stack
+
+- Frontend: HTML, CSS, JavaScript (React optional)
+- Backend: Node.js, Express.js
+- Real-time communication: Socket.IO
+- Database: MongoDB
+- Authentication: JWT / session-based auth
+
+## 📁 Folder Structure
+
+```text
 Real Time Chat Application/
 ├── backend/
 │   ├── controllers/
@@ -39,29 +47,41 @@ Real Time Chat Application/
 ├── .env.example
 ├── README.md
 └── .gitignore
-⚙️ Installation
-Clone the repository:
-git clone https://github.com/abhinav050504/Real-Time-Chat-Application.git cd "Real Time Chat Application/Real Time Chat Application"
+```
 
+## ⚙️ Installation
+
+1. Clone the repository:
+   ```bash
+git clone https://github.com/abhinav050504/Real-Time-Chat-Application.git
+cd "Real Time Chat Application/Real Time Chat Application"
+```
 2. Install backend dependencies:
    ```bash
 cd backend
 npm install
-Install frontend dependencies:
-cd ../frontend npm install
-
+```
+3. Install frontend dependencies:
+   ```bash
+cd ../frontend
+npm install
+```
 4. Create a `.env` file in the backend folder and add environment variables:
    ```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
-Start the application:
-backend server
-cd ../backend npm run dev
+```
+5. Start the application:
+   ```bash
+# backend server
+cd ../backend
+npm run dev
 
-frontend app
-cd ../frontend npm start
-
+# frontend app
+cd ../frontend
+npm start
+```
 
 ## 🚀 Usage
 
